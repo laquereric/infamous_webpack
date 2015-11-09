@@ -1,0 +1,24 @@
+{
+  "name": "infamous_webpack",
+  "version": "0.0.1",
+  "description": "First cut at infamous ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laquereric/infamous_webpack.git"
+  },
+  "keywords": [
+    "infamous",
+    "webpack",
+    "javascript"
+  ],
+  "author": "Eric Laquer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laquereric/infamous_webpack/issues"
+  },
+  "homepage": "https://github.com/laquereric/infamous_webpack#readme"
+}
