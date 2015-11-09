@@ -1,8 +1,8 @@
-tyle                  = require('famous/core/famous.css') // needed by famous
-var Plane                  = require('infamous/Plane')
-var contextWithPerspective = require('infamous/utils').contextWithPerspective
+//var style                  = require('famous/core/famous.css') // needed by famous
+var Plane                  = require('infamous/Plane');
+var contextWithPerspective = require('infamous/utils').contextWithPerspective;
 
-var ctx = contextWithPerspective(1000)
+var ctx = contextWithPerspective(1000);
 var square = new Plane({
     size: [200,200],
     content: 'Hello.',
@@ -11,8 +11,7 @@ var square = new Plane({
         background: 'pink',
         padding: '5px'
     }
-})
+});
 
-ctx.add(square)
-square.transform.setRotate([0,2*Math.PI,0], {duration: 5000, curve: 'easeInOut'})
-
+ctx.add(square);
+square.transform.setRotate([0,2*Math.PI,0], {duration: 5000, curve: 'easeInOut'});
