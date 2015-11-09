@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	tyle                  = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"famous/core/famous.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) // needed by famous
+	//var style                  = require('famous/core/famous.css') // needed by famous
 	var Plane                  = __webpack_require__(1)
 	var contextWithPerspective = __webpack_require__(17).contextWithPerspective
 
@@ -61,7 +61,6 @@
 
 	ctx.add(square)
 	square.transform.setRotate([0,2*Math.PI,0], {duration: 5000, curve: 'easeInOut'})
-
 
 
 /***/ },
